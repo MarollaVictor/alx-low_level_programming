@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_alphabet_10 - function prints alphabet 10 times
