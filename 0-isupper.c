@@ -1,21 +1,28 @@
 #include "main.h"
 
 /**
- *_isupper _ checks if the given char is upper-case
- *
- *_putchar _  tells if the finctiosn is seccess by
- *	returnning 1 or -1 in failure
- *
- * @c : represents the given character
+<<<<<<< HEAD
+ * _isupper - checks if the given c is upper
  *
  *
- * Return: 1 if it is upper 0 otherwise
+ * @c: input for alphabet
+ *
+ *
+ * Return: 1 if it is upper, 0 otherwise
+=======
+ * _isupper - check if c is upper
+ *
+ * @c: input for alphabet
+ *
+ * Return: 1 if it is uppercase, 0 if not
+ *
+>>>>>>> 39b4b3c8eb2c6b0859026ecd79752c8e5a9e1e2c
 */
 
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
-		_putchar('1');
+		return (1);
 	else
-		_putchar('0');
+		return (0);
 }
