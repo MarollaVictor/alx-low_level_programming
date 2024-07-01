@@ -5,7 +5,7 @@
  *
  * @str: string parameter to print
  *
- * @return: Nothing
+ * Return: Nothing
  *
 */
 
