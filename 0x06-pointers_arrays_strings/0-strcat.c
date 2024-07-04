@@ -2,7 +2,7 @@
 
 /**
  * _strcat - function concatenates two strings
- *
+ * to be read simlutanously
  * @dest: pointer to destination input
  * @src: poointer to source input
  *
