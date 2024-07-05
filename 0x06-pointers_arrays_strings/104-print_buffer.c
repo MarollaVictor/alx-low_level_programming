@@ -28,7 +28,7 @@ void printHexes(char *b, int start, int end)
 		if (i < end)
 			printf("%02x", *(b + start + i));
 		else
-			printf("   ");
+			printf("  ");
 		if (i % 2)
 			printf(" ");
 		i++;
@@ -73,7 +73,7 @@ void print_buffer(char *b, int size)
 			end = (size - start < 10) ? size - start : 10;
 			printf("%08x: ", start);
 			printHexes(b, start, end);
-			printASCII(b ,start, end);
+			printASCII(b, start, end);
 			printf("\n");
 		}
 	} else
