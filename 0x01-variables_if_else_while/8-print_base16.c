@@ -18,6 +18,7 @@ int main(void)
 
 		/* after 9 we jump till 96: */
 		if (digit == 57)
+			/*we add just 39 as we have digit++ already after it*/
 			digit += 39;
 		digit++;
 	}
