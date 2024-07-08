@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _memcpy - copies memory area
+ * _memcpy - function copies @n bytes from memory area @src
+ *	to memory area dest
+ *
  * @dest: memory area
  * @src: source
  * @n: length of src to be copied
@@ -17,7 +19,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		dest[itr] = src[itr];
 	}
-	_putchar('\n');
 
 	return (dest);
 }
