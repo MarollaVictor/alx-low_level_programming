@@ -1,4 +1,4 @@
-#include "3-calc.h"
+nclude "3-calc.h"
 
 /**
  * main - checl the code for school students
