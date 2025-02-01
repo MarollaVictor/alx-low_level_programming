@@ -15,11 +15,11 @@ int jump_search(int *array, size_t size, int value)
 {
 	int index, m, k, prev;
 
-	if(array == NULL || size == 0)
+	if (array == NULL || size == 0)
 	{
 		return (-1);
 	}
-	
+
 	m = (int)sqrt((souble)size);
 	k = 0;
 	prev = index = 0;
