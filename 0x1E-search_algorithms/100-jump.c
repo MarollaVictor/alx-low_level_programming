@@ -20,7 +20,7 @@ int jump_search(int *array, size_t size, int value)
 		return (-1);
 	}
 
-	m = (int)sqrt((souble)size);
+	m = (int)sqrt((double)size);
 	k = 0;
 	prev = index = 0;
 
